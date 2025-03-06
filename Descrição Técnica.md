@@ -9,19 +9,19 @@
 
 > Link para o main.tf alterado: [main.tf](main.tf)
 ## Descrição técnica tarefa 2(mudanças realizadas)
-- SSH restrigindo a um IP seguro
-    - (linha 17 a 21): Criando a variavel para o IP seguro
-    - (linha 73): utilização da variavel
+- SSH restringindo a um IP seguro
+    - (linha 17 a 21): Criando a variável para o IP seguro
+    - (linha 73): utilização da variável
 
 - Criptografia ativada no Disco de armazenamento
     - (linha 120)
 
 - instalando, iniciando e configurando o Nginx
     - (linha 76 a 82): Adicionando regra ao aws_security_group para ter acesso ao Nginx pela porta 80
-    - (linha 128 a 130): Comandos adicionais necessarios para instalar e iniciar o Nginx
+    - (linha 128 a 130): Comandos adicionais necessários para instalar e iniciar o Nginx
 
 ## instruções de uso
-Com o terraform devidamente instalado e executando a partir do diretorio em que o main.tf entá execute
+Com o terraform devidamente instalado e executando a partir do diretório em que o main.tf então execute
 
 ```
     terraform init
